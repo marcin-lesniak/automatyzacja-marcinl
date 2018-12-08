@@ -4,12 +4,12 @@ import java.io.InputStreamReader;
 
 public class Zadanie1 {
     public static void main(String... args) {
-        final String HELLO_WORD = "Witaj świecie!";
+        final String HELLO_WORLD = "Witaj świecie!";
         final String EXIT_PROMPT = "Aby zamknąć aplikację, trzeba wpisać exit i nacisnąć klawisz enter";
         final String REQUIRED_INPUT_TEXT = "exit";
         String inputText = "";
 
-        System.out.println(HELLO_WORD);
+        System.out.println(HELLO_WORLD);
         while(!inputText.equals(REQUIRED_INPUT_TEXT)) {
             System.out.println(EXIT_PROMPT);
 
